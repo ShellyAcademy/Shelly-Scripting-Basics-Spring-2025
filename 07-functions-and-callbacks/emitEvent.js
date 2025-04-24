@@ -1,0 +1,1 @@
+Shelly.emitEvent("RESET_TIMER", { "timer": 2 });

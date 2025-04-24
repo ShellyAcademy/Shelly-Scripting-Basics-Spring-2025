@@ -1,0 +1,1 @@
+Shelly.emitEvent("TURN_DEVICE_ON", {"id": 0, "ip": "192.168.10.127"});
