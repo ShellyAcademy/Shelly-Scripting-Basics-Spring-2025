@@ -8,7 +8,7 @@ function sendEmailNotification(totalPowerConsumption) {
   };
 
   let sender = { name: "Emre", email: "noreply@shelly.academy" };
-  let receiver = { name: "Alex", email: "emre.metin2002@gmail.com" };
+  let receiver = { name: "Alex", email: "receiver-email-address" };
   let currentHour = Shelly.getComponentStatus("Sys").time;
   let currentHourMinusOne = (Number(currentHour.split(":")[0]) - 1) + ":" + currentHour.split(":")[1];
 
